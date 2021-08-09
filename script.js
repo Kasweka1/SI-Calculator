@@ -18,7 +18,7 @@ form.addEventListener("submit", e=>{
 			alert("Please input a valid Number");
 		}else{
 			let result = (principle * rate * time) / 100;
-			answer.innerHTML = result;
+			answer.innerHTML = `K${result}`;
 		}
 	}
 	
