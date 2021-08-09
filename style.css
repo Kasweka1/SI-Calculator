@@ -1,0 +1,40 @@
+body{
+	font-family: verdana;
+	font-size: 1.5em;
+	color:#505050;
+	background-color: #f4f4f4;
+}
+.wrapper p{
+	font-size: 30px;
+
+}
+.wrapper{
+	background-color: white;
+	width: 25%;
+	/*text-align: center;
+*/	margin: 20px auto;
+	padding: 20px 10px;
+}
+.wrapper .answer_display p{
+	border: 1px solid black;
+	padding: 5px 5px 5px 0px;
+	text-align: right;
+}
+form{
+	padding: 20px 10px;
+}
+form label{
+	margin-bottom: 10px: 
+}
+form input{
+	margin: 7px 0px;
+}
+form input[type="text"]{
+	padding: 10px 20px; 
+}
+form input[type="submit"]{
+	padding: 7px;
+	margin-top: 10px;
+	font-size:20px;  
+	cursor: pointer;
+}
